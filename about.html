@@ -40,7 +40,7 @@
               </div>
               <div class="group">
                 <div class="mobile-menu-icon" id="mobile-menu-icon">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#side_menu" aria-controls="side_menu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fa-solid fa-bars"></i></button>
                 </div>
                 <div class="social-media"><a href=""><i class="fa-brands fa-behance"> </i></a><a href="" style="color: #FF0000"><i class="fa-solid fa-envelope"> </i></a><a href="" style="color: #3DDE5A"><i class="fa-brands fa-whatsapp"> </i></a></div>
               </div>
@@ -49,14 +49,16 @@
         </nav>
         <!--navbar desktop-->
         <!--menu in mobile only-->
-        <div class="mobile-menu">
-          <div class="content-mobile">
-            <div class="logo"><img class="img-fluid" src="images/header-logo.svg" alt="alt"></div>
-            <div class="links"><a href="portfolio.html">portfolio </a><a href="about.html">about me<span class="separ">&</span>contacts</a></div>
-            <div class="social-media"><a href=""><i class="fa-brands fa-behance"> </i></a><a href="" style="color: #FF0000"><i class="fa-solid fa-envelope"> </i></a><a href="" style="color: #3DDE5A"><i class="fa-brands fa-whatsapp"></i></a></div>
-          </div>
-          <div class="close" id="close-menu">
-            <button><i class="fa-solid fa-xmark"></i></button>
+        <div class="offcanvas offcanvas-top" id="offcanvasTop" tabindex="-1" aria-labelledby="offcanvasTopLabel">
+          <div class="mobile-menu">
+            <div class="content-mobile">
+              <div class="logo"><img class="img-fluid" src="images/header-logo.svg" alt="alt"></div>
+              <div class="links"><a href="portfolio.html">portfolio </a><a href="about.html">about me<span class="separ">&</span>contacts</a></div>
+              <div class="social-media"><a href=""><i class="fa-brands fa-behance"> </i></a><a href="" style="color: #FF0000"><i class="fa-solid fa-envelope"> </i></a><a href="" style="color: #3DDE5A"><i class="fa-brands fa-whatsapp"></i></a></div>
+            </div>
+            <div class="close" id="close-menu">
+              <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
           </div>
         </div>
       </header>
